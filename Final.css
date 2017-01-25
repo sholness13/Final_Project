@@ -1,9 +1,207 @@
-//Wood background
-//A lot of pictures
-//Kitchen
-//Bathroom
-//Library
-//Office
-//Storage
-//Workspace
-//Blueprints
+header {
+	background: url("Final_Background.jpeg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	margin: auto;
+	height: 900px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 10%
+
+}
+
+@keyframes  rotatewheel{
+	0% {
+		transform: rotateZ(0deg);
+	}
+
+	100% {
+		transform:rotateZ(1800deg);
+	}
+
+}
+
+ul {
+	padding-bottom: 300px;
+	padding-right: 40px;
+	padding-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a.menu-item {
+	color: white;
+}
+
+a.menu-item:hover {
+	color: pink;
+}
+
+li {
+	display: inline;
+	color: white;
+
+}
+
+.work {
+	width: 50px;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+#icon {
+	animation-name: rotatewheel;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+}
+
+#title {
+	font-size: 75px;
+}
+#subtitle {
+	font-size: 35px;
+}
+
+body {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	text-align: center;
+	width: 200px;
+	padding-bottom: 175px;
+}
+
+nav {
+	background: url("Nav_Background.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	margin: auto;
+	height: 500px;
+	color: white;
+	font-size: 20px;
+	padding-top: 80px;
+}
+
+#about {
+	background:url("Shelf.jpeg") no-repeat center;
+	background-size: cover;
+	height: 900px;
+	position: relative;
+}
+
+footer{
+	background:url("Blueprint.jpeg") no-repeat center;
+	background-size: cover;
+	height: 900px;
+	position: relative;
+}
+
+#aboutme{
+	background-color: black;
+	color: white;
+	width: 500px;
+	height: 600px;
+	padding-top: 80px;
+	text-align: center;
+	position: absolute;
+	top: 15%;
+	left: 32%;
+	border-radius: 50px;
+}
+
+
+.tools {
+	transition: transform 5s;
+	}
+
+.tools:hover{
+	transform: rotateZ(-360deg);
+}
+
+.col-md-4{
+	text-align: center;;
+}
+
+.img img {
+	height: 480px;
+	width: 640px;
+	border: 10px;
+	padding: 10px;
+}
+
+a {
+	height: 48px;
+	width: 51px;
+	margin-left: 25px;
+}
+
+#pics {
+	margin-left: 25%;
+	height: 480px;
+	width: 700px;
+	overflow: scroll;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 300;
+	color: white;
+	text-decoration: underline;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+
+#contact{
+	padding-top: 50px;
+	color: black;
+}
+
+#Gallery {
+	background: url("Nav_Background.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	margin: auto;
+	height: 700px;
+	color: white;
+	font-size: 20px;
+	padding-top: 80px;
+}
+
+form {
+	background-color: black;
+	color: white;
+	width: 500px;
+	height: 600px;
+	padding-top: 80px;
+	text-align: center;
+	position: absolute;
+	top: 15%;
+	left: 32%;
+	border-radius: 50px;
+
+}
+
+#form {
+	color: grey;
+}
+
+.top {
+	font-size: 15px;
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 20px;
+}
+
+.popup {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	margin: auto;
+	padding: 20px;
+}
